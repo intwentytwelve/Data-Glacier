@@ -1,0 +1,9 @@
+file_type: csv
+file_name: demo1
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - ym(Year + month)
+    - Country
+    - City
